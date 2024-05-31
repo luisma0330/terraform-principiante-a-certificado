@@ -15,10 +15,3 @@ resource "aws_vpc" "vpc_oregon" {
   provider = aws.oregon
 }
 
-variable "virginia_cidr" {
-  default = "10.10.0.0/16"
-}
-
-variable "oregon_cidr" {
-  default = "10.20.0.0/16"
-}
