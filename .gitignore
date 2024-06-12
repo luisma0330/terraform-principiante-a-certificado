@@ -36,3 +36,6 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+#Este hay que crearlo en cada laboratorio de aws que se cree y guardarlo en la practica 6
+mykey.pem
